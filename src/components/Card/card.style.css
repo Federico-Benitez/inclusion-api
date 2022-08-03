@@ -1,0 +1,39 @@
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  height: 170px;
+  padding: 14px 10px;
+  border: 3px solid;
+}
+
+.card--success {
+  border-color: #25781fe7;
+}
+
+.card--fail {
+  border-color: #df060dcd;
+}
+
+.card__state {
+  border-bottom: 3px solid;
+  padding: 2px 0;
+  margin: 8px 0;
+}
+
+.card__name {
+  text-transform: capitalize;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.success {
+  color: #25781fe7;
+}
+
+.fail {
+  color: #df060dcd;
+}

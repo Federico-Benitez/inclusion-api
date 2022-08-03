@@ -1,0 +1,30 @@
+const vars = {
+  BASE_URL: "https://api.factoryfour.com",
+  statusEndpoint: "health/status",
+  names: [
+    "accounts",
+    "assets",
+    "customers",
+    "accounts",
+    "assets",
+    "customers",
+    "datapoints",
+    "devices",
+    "documents",
+    "forms",
+    "invites",
+    "media",
+    "messages",
+    "namespaces",
+    "orders",
+    "patients",
+    "relationships",
+    "rules",
+    "templates",
+    "users",
+    "workflows",
+  ],
+  interval: 15,
+};
+
+export default vars;
